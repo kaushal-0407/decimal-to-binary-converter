@@ -58,7 +58,6 @@ This project helped me strengthen my understanding of Java fundamentals such as 
     ```bash
     java DecimalToBinary
 
-## Author
-Kaushal Kumar Gupta
+Author - Kaushal Kumar Gupta
 
 
