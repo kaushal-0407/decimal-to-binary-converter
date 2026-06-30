@@ -8,6 +8,10 @@ public class DecimalToBinary{
         quo = dec;
         String bin = "";
         do{
+            if(dec == 0 || dec == 1){
+                System.out.println(dec+" in Binary is : "+dec);
+                System.exit(0);
+            }
             rem = quo%2;
             quo/=2;
             bin+=Integer.toString(rem);
